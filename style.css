@@ -12,9 +12,80 @@ Text Domain:
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+/* #282830 Flat Cobalt Blue */
+/* #E75926 Flat Tangerine */
+/* #FFFFF7 Flat White */
+/* #59A9C2 Flat Light Blue */
+body{
+	background: #FFFFF7;
+	margin: 0;
+}
+/*Header*/
+#header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #282830; 
+	height: 15vh;
+	width: 100vw;
+	margin: 0;
+}
+#header img{
+	display: block;
+	height: 14vh;
+	width: 15%;
+	margin: 0;
+	margin-left: 2.5%;
+}
+#header ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+	float: right;
+	height: 15vh;
+	width: 50%;
+	margin: 0;
+}
+#header li{
+	color: #FFFFF7;
+	font-family: 'Pacifico', cursive;
+}
 
-img{
-	height: 10vh;
-	width: 10vw;
+/*content*/
 
+.content{
+	display: block;
+	float: right;
+	height: auto;
+	width: 45%;
+	margin: 0;
+	margin-right: 5%;
+	border: 2px solid blue;
+}
+
+/*sidbar*/
+.sidebar{
+	height: auto;
+	width: 35%;
+	margin-left: 5%;
+	border: 2px solid red;
+}
+
+/*footer*/
+#footer{
+	background: #282830;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	position: fixed;
+    bottom: 0;
+	padding: 1% 0 1% 0;
+}
+#footer p{
+	color: #FFFFF7;
+	font-family: 'Pacifico', cursive;
+	margin: 0;
 }
