@@ -50,7 +50,6 @@ body{
 #header li{
 	color: #FFFFF7;
 	font-family: 'Pacifico', cursive;
-	font-size: 1.25em;
 }
 
 /*content*/
@@ -85,9 +84,8 @@ body{
     bottom: 0;
 	padding: 1% 0 1% 0;
 }
-#footer p, #footer a{
+#footer p{
 	color: #FFFFF7;
-	text-decoration: none;
 	font-family: 'Pacifico', cursive;
 	margin: 0;
 }

@@ -28,7 +28,7 @@
 		</ul>
 	</div>
 	<div id="footer">
-		<p><a href="http://wardlaos.com/">Ward&Laos Design</a></p>
+		<p>Ward&Laos Design</p>
 		<p>2016</p>
 	</div>
 </body>
