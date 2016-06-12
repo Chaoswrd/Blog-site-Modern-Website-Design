@@ -54,7 +54,6 @@ body{
 }
 
 /*content*/
-
 .content{
 	display: block;
 	float: right;
@@ -65,7 +64,7 @@ body{
 	border: 2px solid blue;
 }
 
-/*sidbar*/
+/*sidebar*/
 .sidebar{
 	height: auto;
 	width: 35%;
